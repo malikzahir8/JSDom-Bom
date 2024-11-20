@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Övningsuppgift för provet</title>
+    <style>
+        button{
+            width: 22%;
+            height: 80px;
+            color: white;
+            background-color:cornflowerblue;
+            margin: 20px;
+            border-radius: 10px;
+            border-color: white;
+            font-size: 14px;
+        }
+        button:hover{
+            background-color: lightblue;
+        }
+        #mainDiv {
+            display: flex;
+            background-color: darkblue;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 40%;
+            margin: 0 auto;
+            border-radius: 10px;
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div">
+    <p id="tid"></p>
+    <img src="lion.jpg" id="lion" width="100px" height="100px" alt="Bild på lion">
+    <img src="varg.jpg" id="varg" width="100px" height="100px" alt="Bild på varg">
+    </div>
+    
+    <div id="mainDiv">
+            <button id="button1">Ändra bakgrundsfärg</button>
+            <button id="button2">Ändra bilden</button>
+            <button id="button3">Placera allt i mitten</button>
+
+            <button onclick="text()">Visar en text</button>
+            <button id="button4">Gömma bilden</button>
+            <button id="button5">Radera allt</button>
+
+            <button id="button6">Visa tiden</button>
+            <button id="button7">Visa bilden</button>
+            <button id="button8">Visa allt igen</button>
+        </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
